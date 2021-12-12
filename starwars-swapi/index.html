@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nerd-info SWAPI</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://use.fontawesome.com/bf0334d3c9.css" media="all" rel="stylesheet">
+</head>
+<body>
+     
+
+
+    <header>
+        <h1>Welcome</h1>
+        <h3>Read about Star Wars</h3>
+    </header>
+    
+    <section class="load-section">
+        <div class="load-box">
+            <div id="load-ring"></div>
+            <h1 id="load-text">Loading<span id="load-dot-1">.</span><span id="load-dot-2">.</span><span id="load-dot-3">.</span></h1>
+        </div>
+    </section>
+
+
+    
+
+    <section id="movies">
+    </section>
+
+    
+
+    <section class="modal-section">
+        <div class="modal-container">
+            <button id="next-film-btn"><span id="next-animation">🢂</span></button>
+            <button id="previos-film-btn"><span id="prev-animation">🢀</span></button>
+
+            <div class="modal-header">
+                <i id="cross" class="fa fa-times"></i>
+            </div>
+            <div class="modal-title">
+                <h1 id="modal-title-id"></h1>
+                <h2 class="year"></h2>
+            </div>
+            <div class="modal-box">
+                <h1 id="box-modal-span"><span><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                Cracters
+                 <span><i class="fa fa-star-o" aria-hidden="true"></i></span></h1>
+                <div class="modal-cracters"></div>    
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
